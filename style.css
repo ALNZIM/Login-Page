@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: ig;
+    src: url(assets/fonts/Fontspring-DEMO-blue_vinyl_bold_ps_ot.otf);
+}
+@font-face {
+    font-family: instagramsans;
+    src: url(assets/fonts/Instagram\ Sans.ttf);
+}
+@font-face {
+    font-family: instagrambold;
+    src: url(assets/fonts/Instagram\ Sans\ Bold.ttf);
+}
+@font-face {
+    font-family: instagrammedium;
+    src: url(assets/fonts/Instagram\ Sans\ Medium.ttf);
+}
+@font-face {
+    font-family: instagramlight;
+    src: url(assets/fonts/Instagram\ Sans\ Light.ttf);
+}
+@font-face {
+    font-family: instagramheadline;
+    src: url(assets/fonts/Instagram\ Sans\ Headline.otf);
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+header {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+header img {
+    width: 100px;
+    height: auto;
+    margin-left: 235px;
+    margin-top: 20px;
+}
+header button {
+    margin-left: 650px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+
+}
+header a {
+    font-family: instagrambold;
+    text-decoration: none;
+    color: royalblue;
+}
+.enter1 {
+    color: white;
+    background-color: royalblue;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    margin-right: 10px;
+    font-family: instagrambold;
+
+}
+.container img {
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.login {
+    width: 300px;
+    height: 350px;
+    border: 1px solid rgb(207, 207, 207);
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.login input {
+    display: flex;
+    font-size: 12px;
+    margin-left: 12%;
+    margin-top: 5px;
+    font-family: instagramlight;
+}
+.login h1 {
+    font-family: ig;
+    font-size: 40px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 60px;
+}
+.boxes input {
+    width: 210px;
+    height: 30px;
+    border: 1px solid rgb(207, 207, 207);
+    padding-left: 10px;
+}
+.boxes {
+    margin-top: 70px;
+}
+.boxes img {
+    width: 50px;
+    height: auto;
+    background-size: cover;
+}
+.enter2 {
+    background-color: royalblue;
+    color: white;
+    width: 210px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: instagrambold;
+    
+}
+.login a {
+    font-size: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: instagrammedium;
+    text-decoration: none;
+    color: royalblue;
+}
+.login .aa {
+    font-size: 13px;
+    font-family: instagrambold;
+    text-decoration: none;
+    color: royalblue;
+
+}
+
+.account {
+    border: 1px solid rgb(207, 207, 207);
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+    font-family: instagrambold;
+}
+.account .phrase {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: instagrambold;
+    margin-top: 15px;
+}
+.account .phrase a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    text-decoration: none;
+    color: royalblue;
+}
+.app {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: instagrammedium;
+}
+.apps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.baixar {
+    width: 210px;
+    height: auto;
+    margin-right: 315px;
+}
